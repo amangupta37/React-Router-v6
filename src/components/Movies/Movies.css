@@ -1,0 +1,56 @@
+.Movies {
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+}
+
+.Movies .Filters {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.Movies .CategoryFilter {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 20px 0;
+}
+
+.Movies .CategoryFilter .FilterType {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Movies .CategoryFilter .FilterType input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #953d96;
+}
+
+.Movies .MovieList {
+    margin: 30px 0;
+}
+
+.Movies .MovieList .MovieCard {
+    margin: 30px 0;
+}
+
+.Movies .MovieList .Description {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.Movies .Filters .RatingFilter {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Movies .Filters .RatingFilter select {
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.GroceryList {
+    width: 500px;
+    padding: 10px;
+}
+
+.GroceryList .AddItems {
+    margin: 30px 0px;
+}
+
+.GroceryList .AddItems input {
+    padding: 10px 5px;
+}
+
+.GroceryList .AddItems button {
+    padding: 10px 30px;
+}
+
+.GroceryList .GroceryItems, .CompletedList {
+    padding: 20px 30px;
+}
+
+
+.GroceryList .GroceryItems .List {
+          display: flex;
+          align-items: center;
+          gap:10px;
+}
+.GroceryList .GroceryItems ul>li {
+         padding: 5px 0;
+}
+
+.GroceryList .GroceryItems .List input[type="checkbox"] {
+          height: 20px;
+          width: 20px;
+}
+
+.GroceryList .GroceryItems, .CompletedList .List p {
+          font-size: 18px;
+          text-transform: capitalize;         
+}
+

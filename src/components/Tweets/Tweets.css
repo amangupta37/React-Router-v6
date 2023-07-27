@@ -1,0 +1,25 @@
+.Tweet {
+    width: 500px;
+    padding: 10px;
+}
+.Tweet .Button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Tweet .Button button {
+    padding: 5px 10px;
+}
+.Tweet .Tweet-card {
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    border: 2px solid #1cf2ee;
+}
+.Tweet .Tweet-card .Tweet-stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
